@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 62.5%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: orange;
+    font-size: 1.2rem;
+}
+/* #Logo{
+    
+} */
+#Nav-Menu{
+    width: 25px;
+    height: 25px;
+}
+.location{
+    width: 100%;
+    background-color: magenta;
+}
+.food{
+    width: 100%;
+    background-color: pink;
+}
+.about-us{
+    width: 100%;
+    background-color: aqua;
+}
+.mainSection{
+    height: 200px;
+    font-size: 1.2rem;
+}
+.title-section{
+    margin: 10px;
+}
+.contact-us{
+    background-color: red;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+form label{
+    display: block;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-links{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-img{
+    width: 24px;
+    height: 24px;
+}
+.navbar-desktop{
+    display: none;
+}
+.info{
+    display: none;
+}
